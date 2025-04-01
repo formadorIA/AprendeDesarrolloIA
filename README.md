@@ -1,6 +1,17 @@
 # AprendeDesarrolloIA
 
 
+## 📚 Otras secciones
+
+- [🛣️ Roadmap completo](roadmap.md)
+- [📘 Fase 1: Fundamentos de IA](fase-1.md)
+- [🤖 Fase 2: LLMs y modelos generativos](fase-2.md)
+- [🚀 Proyectos prácticos](proyectos.md)
+- [🔗 Recursos recomendados](recursos.md)
+- [❓ Preguntas frecuentes](faq.md)
+
+
+
 # 📘 De las Redes Neuronales a los Transformers y luego a RAGs
 
 ## 🧠 1. Primera revolución: Redes Neuronales y Deep Learning (~2012)
