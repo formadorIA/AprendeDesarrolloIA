@@ -1,7 +1,44 @@
 # AprendeDesarrolloIA
 
+# 🚀 ¿Pensando en transicionar al mundo de la IA?
 
-## 📚 Otras secciones
+¿Vienes del diseño gráfico, diseño web, desarrollo web o estás empezando desde cero en tecnología?  
+Este repositorio es para ti.
+
+---
+
+## 💼 ¿Qué están buscando hoy las empresas?
+
+Desarrolladores que sepan:
+
+- ✅ Optimizar y ajustar modelos LLM para tareas específicas.
+- ✅ Desarrollar APIs con **FastAPI** para exponer modelos de IA de forma escalable.
+- ✅ Desplegar modelos en arquitecturas **serverless** o con **Kubernetes**.
+- ✅ Mejorar flujos **RAG (Retrieval-Augmented Generation)** para aumentar la precisión en las respuestas.
+- ✅ Integrar soluciones en la **nube** con bases de datos como **PostgreSQL** y **Redis**.
+- ✅ Automatizar procesos con IA e integrarla en **CRMs, chatbots y asistentes virtuales**.
+
+---
+
+## 💡 ¿Y si no vienes de un perfil técnico?
+
+No te preocupes. Aquí encontrarás una **serie de posts** que te servirán como una **formación progresiva, fácil de entender y aplicable al mundo real**.
+
+Incluye:
+
+- 🧠 Conceptos clave explicados desde cero.
+- 👨‍💻 Ejercicios prácticos con código.
+- 🛠 Recursos y herramientas actuales.
+- 🧭 Roadmap completo para convertirte en Desarrollador IA.
+
+---
+
+### 👉 ¡Comienza tu transición al mundo de la IA hoy mismo!
+
+Haz scroll por las diferentes fases o navega por los archivos de este repositorio para seguir el contenido en orden.
+
+
+## 📚 Roadmap 
 
 - [🛣️ Roadmap completo](roadmap.md)
 - [📘 Fase 1: Fundamentos de IA](fase-1.md)
