@@ -43,7 +43,7 @@ Haz scroll por las diferentes fases o navega por los archivos de este repositori
 - [🛣️ Roadmap completo](roadmap.md)
 - [📘 Fase 1: Fundamentos de IA](fase-1.md)
 - [🤖 Fase 2: LLMs y modelos generativos](fase-2.md)
-- [🚀 Proyectos prácticos](./Portfolio/chatbotRAG.md)
+- [🚀 Proyectos prácticos](../Portfolio/chatbotRAG.md)
 - [🔗 Recursos recomendados](recursos.md)
 - [❓ Preguntas frecuentes](faq.md)
 
