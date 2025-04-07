@@ -1,1 +1,135 @@
 
+# 🧠 Equipo Mínimo para Desarrollo de IA + Generación de Imágenes (Sobremesa)
+
+Este documento resume las configuraciones mínimas recomendadas para desarrolladores de inteligencia artificial que quieran trabajar localmente, especialmente generando imágenes con modelos como Stable Diffusion.
+
+---
+
+## ⚙️ Configuración Mínima Base
+
+### 🧩 Procesador (CPU)
+**AMD Ryzen 5 5600** o **Intel i5-12400F**  
+- Buenos núcleos y rendimiento multicore  
+- Suficientes para tareas generales, entrenamiento básico y desarrollo
+
+### 🎮 Tarjeta Gráfica (GPU)
+**NVIDIA RTX 3060 (12 GB de VRAM)**  
+- Punto de entrada ideal para generación con Stable Diffusion  
+- Soporta CUDA y compatible con PyTorch, TensorFlow, etc.  
+- Con 12 GB podés generar imágenes de 512x512 y hasta 768x768 sin problemas
+
+### 🧠 Memoria RAM
+**32 GB DDR4**  
+- Menos de eso limita multitarea o modelos más pesados
+
+### 💾 Almacenamiento
+**1 TB SSD NVMe Gen 3 o Gen 4**  
+- Velocidad de lectura/escritura clave para cargar modelos y guardar imágenes  
+- Recomendable sumar un HDD adicional para backup
+
+### 🔧 Placa Base
+- B550 (para AMD) o B660 (para Intel)  
+- Al menos 2 slots M.2 y 4 bancos de RAM
+
+### ⚡ Fuente de Alimentación
+**650W 80+ Bronze (mínimo)**  
+- Asegurarse que soporte GPU con conector de 8 pines
+
+### 🧊 Caja y Refrigeración
+- Caja ATX con buen flujo de aire  
+- Cooler stock es suficiente si no hacés overclocking
+
+### 💰 Costo estimado
+**850 a 950 €**, según promociones o componentes de segunda mano
+
+---
+
+## 💡 ¿Qué podés hacer con esta configuración?
+- Desarrollar con Python, PyTorch, TensorFlow  
+- Ejecutar Stable Diffusion 1.5 localmente sin complicaciones  
+- Probar modelos de lenguaje (NLP), trabajar con datasets tabulares, visión, etc.  
+- Usar herramientas como Google Colab si necesitás GPU extra  
+- Trabajar con ComfyUI, InvokeAI, AUTOMATIC1111
+
+---
+
+## 🖥️ Configuraciones Recomendadas
+
+### ✅ 1. Opción más ajustada (Funcional con optimizaciones)
+**Precio estimado: 800 – 900 €**
+
+| Componente       | Modelo recomendado                     |
+|------------------|-----------------------------------------|
+| CPU              | AMD Ryzen 5 5600 (6 núcleos / 12 hilos) |
+| GPU              | NVIDIA RTX 3060 12 GB                   |
+| RAM              | 32 GB DDR4 3200 MHz                     |
+| Almacenamiento   | 1 TB SSD NVMe Gen 3                     |
+| Placa base       | MSI B550M PRO-VDH WiFi (o similar)      |
+| Fuente           | 650W 80+ Bronze                         |
+| Caja             | ATX con buen flujo de aire              |
+| Refrigeración    | Cooler stock                            |
+
+**Ideal para:**
+- Imágenes 512x512 (Stable Diffusion 1.5)
+- LLMs pequeños, notebooks, Python, ComfyUI, etc.
+
+---
+
+### 🔝 2. Opción recomendada (Más fluida y preparada para el futuro)
+**Precio estimado: 1100 – 1200 €**
+
+| Componente       | Modelo recomendado                      |
+|------------------|------------------------------------------|
+| CPU              | AMD Ryzen 7 5700X (8 núcleos / 16 hilos) |
+| GPU              | NVIDIA RTX 4070 (12 GB)                  |
+| RAM              | 32 GB DDR4 3600 MHz                      |
+| Almacenamiento   | 1 TB SSD NVMe + HDD 2 TB                 |
+| Placa base       | ASUS B550 TUF Gaming Plus                |
+| Fuente           | 750W 80+ Gold                            |
+| Caja             | ATX airflow con 3 ventiladores           |
+| Refrigeración    | Cooler por aire premium o AIO 240mm      |
+
+**Ventajas:**
+- Fluidez en imágenes de alta resolución (768x768 o más)  
+- Más margen para modelos grandes y multitarea  
+- Preparada para expansión futura
+
+---
+
+## 🎯 Consejos finales
+
+- **No bajes de 12 GB de VRAM** si querés trabajar con IA generativa localmente  
+- Si necesitás ahorrar, **recortá en CPU o almacenamiento**, pero **nunca en GPU ni RAM**  
+- Podés arrancar con 32 GB de RAM e ir ampliando a 64 GB según tus necesidades  
+
+---
+
+## ❗ ¿Por qué vamos a necesitar más VRAM para trabajar con IA en el futuro?
+
+Hoy una GPU con 8 o 12 GB de VRAM puede parecer suficiente para generar imágenes o desarrollar con IA. Pero si miramos hacia adelante, el panorama cambia rápido.
+
+La complejidad de los modelos no para de crecer:
+
+- Modelos como **Stable Diffusion XL** ya generan imágenes en 1024x1024 o superiores  
+- Nuevas herramientas permiten **vídeo, animaciones, renders 3D, generación en tiempo real**  
+- Y cada píxel, cada capa, **consume VRAM. Mucha**
+
+### Además:
+- La optimización de modelos es limitada  
+- El **fine-tuning**, **LoRA**, y modelos personalizados necesitan cargar más capas activas  
+- Cuanta más VRAM tengamos, **menos limitaciones, más fluidez, más calidad**
+
+### ¿Y si no tenemos suficiente VRAM?
+- Modelos que no cargan  
+- Imágenes que se generan lentas o con errores  
+- Tener que hacer *offloading* a RAM o disco, lo que **ralentiza todo**
+
+---
+
+### 💡 Conclusión
+
+Si estás pensando en montar un equipo para IA en 2024/2025, **mirá más allá del presente**:  
+**Invertir en una GPU con mínimo 12 GB VRAM no es lujo. Es visión.**
+
+> El futuro es generativo, visual y pesado.  
+> Y la **VRAM será protagonista**.
