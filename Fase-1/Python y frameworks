@@ -97,7 +97,11 @@ elif hora < 18:
     print("Buenas tardes")
 else:
     print("Buenas noches")
+
+
+
 🧰 Herramientas clave para IA
+
 Una vez que tengas lo básico de Python, podrás usar las herramientas más potentes del ecosistema de IA:
 
 ✅ NumPy – Para cálculos y estructuras de datos numéricos
